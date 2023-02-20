@@ -1,0 +1,71 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/worl-time-zones.jpg");
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+}
+
+.container{
+    width: 700px;
+    height: 900px;
+    margin: auto;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.37);
+}
+
+#local{
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid #dedede;
+    padding: 5px;
+}
+
+#cities tr:nth-child(even){
+    background-color: #efeff5;
+}
+
+.col1{
+    width: 25%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#country{
+    text-align: center;
+    padding: 1px;
+}
+
+.col2{
+    width: 45%;
+}
